@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+.herline{
+    bottom: 300px;
+    right: 400px;
+    border: 1px solid;
+    border-radius: 10px 10px;
+    
+}
