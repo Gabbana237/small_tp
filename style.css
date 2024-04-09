@@ -1,10 +1,70 @@
-body{
-    background-color: blueviolet;
+header{
+    padding: 12px;
+  background-color: blue;
+  width: auto;
+  height: 120px;
+  color: white;
 }
-h2{
-    font-family: sans-serif;
+.liste{
+    margin-top: 2px;
+}
+.liste ul li{
+    list-style: none;
+}
+.niraj{
+    background-color: grey;
+    margin-top: 10px;
+    height: 40px;
+    color: white;
+    padding: 7px;
+}
+.kerol{
+    background-color: green;
+    margin-top: 10px;
+    height: 40px;
+    color: white;
+    padding: 7px;
+}
+.florian{
+    background-color: rgb(238, 37, 37);
+    margin-top: 10px;
+    height: 40px;
+    color: white;
+    padding: 7px;
+}
+.junior{
+    background-color: rgb(109, 165, 248);
+    margin-top: 10px;
+    height: 40px;
+    color: white;
+    padding: 7px;
+}
+.description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description p{
+    font-style: italic;
+    color: gray;
+}
+.description p span{
     font-weight: bold;
-    font-size: 20px;
+    color: black;
+    font-size: 16px;
+}
+.section{
+    background-color: aqua;
     text-align: center;
-
+    color: white;
+    width: auto;
+    height: 120px;
+    padding-top: 30px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: 125px;
+    margin-top: 15px;
+    padding-top: 30px;
 }
