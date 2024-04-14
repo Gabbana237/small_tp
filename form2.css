@@ -4,19 +4,6 @@ body{
     'Trebuchet MS', sans-serif;
     max-width: 800px;
 }
-.container{
-    border: 1px solid grey;
-    border-radius: 15px;
-    width: 400px;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10px;
-    padding-left: 10px;
-    height: 300px;
-    margin-left:35%;
-    margin-top: 20%;
-}
 .container .first{
     font-size: 26px;
     font-weight: bold;
