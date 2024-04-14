@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+    max-width: 800px;
+}
+.container{
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 400px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 300px;
+    margin-left:35%;
+    margin-top: 20%;
+}
+.container .first{
+    font-size: 26px;
+    font-weight: bold;
+}
+.login-text{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 15px;
+    max-width: 800px;
+    position: relative;
+}
+.login-text h1::before{
+    content: "";
+    left: 0;
+    top:50%;
+    background: #000;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    display: block;
+    z-index: -2;
+}
+.login-text h1::after{
+    content: "";
+    right: 0;
+    top:50%;
+    background: #000;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    display: block;
+    z-index: -2;
+}
+.login-text h1 span{
+    color: rgb(102, 197, 58);
+    background: #fff;
+
+}
+.send {
+    
+    text-align: center;
+}
+.send .btn-custom{
+    width: 800px;
+    border-radius: 25px;
+    border: 2px solid rgb(31, 126, 12);
+}
